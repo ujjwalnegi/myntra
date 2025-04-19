@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 class Saree_Page():
-    more_brand_xpath = "//div[normalize-space()='+ 873 more']"
+    more_brand_xpath = "//div[@class='brand-more']"
     anouk_brand_xpath = "//div[@class='FilterDirectory-panel FilterDirectory-expanded']/div[2]/ul/li[6]"
     all_saree_xpath = "(//li[contains(@class, 'product-base')])"
     # slider_xpath = "//div[@class='slider-root']/div[1]/div[4]"
