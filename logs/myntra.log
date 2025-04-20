@@ -1,25 +1,184 @@
-2025-04-18 19:30:02:INFO:************* Navigated to saree with all the filters page ****************
-2025-04-18 19:35:25:INFO:*********Test Case 1 has started - Verifying title****************
-2025-04-18 19:38:10:INFO:************* Navigated to saree with all the filters page ****************
-2025-04-18 19:39:59:INFO:************* Navigated to saree with all the filters page ****************
-2025-04-18 19:41:45:INFO:************* Navigated to saree with all the filters page ****************
-2025-04-18 19:42:34:INFO:************* Navigated to saree with all the filters page ****************
-2025-04-18 19:48:04:INFO:************* Navigated to saree with all the filters page ****************
-2025-04-18 19:51:25:INFO:************* Navigated to saree with all the filters page ****************
-2025-04-18 19:57:04:INFO:************* Navigated to saree with all the filters page ****************
-2025-04-18 20:42:14:INFO:************* Navigated to saree with all the filters page ****************
-2025-04-18 20:43:34:INFO:************* Navigated to saree with all the filters page ****************
-2025-04-18 20:49:37:INFO:************* Navigated to saree with all the filters page ****************
-2025-04-18 20:51:20:INFO:************* Navigated to saree with all the filters page ****************
-2025-04-18 21:05:35:INFO:************* Navigated to saree with all the filters page ****************
-2025-04-18 21:20:15:INFO:************* Navigated to saree with all the filters page ****************
-2025-04-18 21:29:15:INFO:************* Navigated to saree with all the filters page ****************
-2025-04-18 23:57:39:INFO:************* Navigated to saree with all the filters page ****************
-2025-04-18 23:59:46:INFO:************* Navigated to saree with all the filters page ****************
-2025-04-19 00:00:59:INFO:************* Navigated to saree with all the filters page ****************
-2025-04-19 00:02:56:INFO:************* Navigated to saree with all the filters page ****************
-2025-04-19 00:19:08:INFO:************* Navigated to saree with all the filters page ****************
-2025-04-19 00:24:48:INFO:************* Navigated to saree with all the filters page ****************
-2025-04-19 00:25:56:INFO:************* Navigated to saree with all the filters page ****************
-2025-04-19 00:27:45:INFO:************* Navigated to saree with all the filters page ****************
-2025-04-19 00:29:50:INFO:************* Navigated to saree with all the filters page ****************
+2025-04-20 01:18:45:INFO:***************** navigated to selected saree page ******************
+2025-04-20 01:18:49:INFO:Saree price is : \u20b91399
+2025-04-20 01:18:50:INFO:******************* Saree price is found *************
+2025-04-20 01:18:51:INFO:******************* Correct Pincode is entered *************
+2025-04-20 01:18:52:INFO:******************* Inorrect Pincode is entered *************
+2025-04-20 01:32:02:INFO:***************** navigated to selected saree page ******************
+2025-04-20 01:32:17:INFO:******************* Inorrect Pincode is entered *************
+2025-04-20 01:35:32:INFO:***************** navigated to selected saree page ******************
+2025-04-20 01:35:37:INFO:******************* Correct Pincode is entered *************
+2025-04-20 01:35:58:INFO:***************** navigated to selected saree page ******************
+2025-04-20 01:36:02:INFO:******************* Inorrect Pincode is entered *************
+2025-04-20 01:37:28:INFO:***************** navigated to selected saree page ******************
+2025-04-20 01:37:31:INFO:Saree price is : \u20b91399
+2025-04-20 01:37:31:INFO:******************* Saree price is found *************
+2025-04-20 01:37:55:INFO:***************** navigated to selected saree page ******************
+2025-04-20 01:37:59:INFO:******************* Correct Pincode is entered *************
+2025-04-20 01:38:22:INFO:***************** navigated to selected saree page ******************
+2025-04-20 01:38:26:INFO:******************* Inorrect Pincode is entered *************
+2025-04-20 01:40:57:INFO:***************** navigated to selected saree page ******************
+2025-04-20 01:41:03:INFO:Saree price is : \u20b91399
+2025-04-20 01:41:03:INFO:******************* Saree price is found *************
+2025-04-20 01:41:24:INFO:***************** navigated to selected saree page ******************
+2025-04-20 01:41:27:INFO:******************* Correct Pincode is entered *************
+2025-04-20 01:41:52:INFO:***************** navigated to selected saree page ******************
+2025-04-20 01:41:57:INFO:******************* Inorrect Pincode is entered *************
+2025-04-20 01:51:12:INFO:***************** navigated to selected saree page ******************
+2025-04-20 01:51:16:INFO:Saree price is : \u20b91399
+2025-04-20 01:51:16:INFO:******************* Saree price is found *************
+2025-04-20 01:51:35:INFO:***************** navigated to selected saree page ******************
+2025-04-20 01:51:40:INFO:******************* Correct Pincode is entered *************
+2025-04-20 01:52:00:INFO:***************** navigated to selected saree page ******************
+2025-04-20 01:52:06:INFO:******************* Inorrect Pincode is entered *************
+2025-04-20 02:08:36:INFO:************* Navigated to saree with all the filters page ****************
+2025-04-20 02:08:40:INFO:******************* More brand is clicked*************
+2025-04-20 02:08:41:INFO:******************* Anouk brand is selected *************
+2025-04-20 02:08:42:INFO:******************* Pink colour is selected *************
+2025-04-20 02:08:43:INFO:******************* Hovered on dropdown *************
+2025-04-20 02:48:43:INFO:************* Navigated to saree with all the filters page ****************
+2025-04-20 02:48:44:INFO:******************* More brand is clicked*************
+2025-04-20 02:48:45:INFO:******************* Anouk brand is selected *************
+2025-04-20 02:48:45:INFO:******************* Pink colour is selected *************
+2025-04-20 02:48:46:INFO:******************* Hovered on dropdown *************
+2025-04-20 02:49:40:INFO:***************** navigated to selected saree page ******************
+2025-04-20 02:49:44:INFO:Saree price is : \u20b91399
+2025-04-20 02:49:45:INFO:******************* Saree price is found *************
+2025-04-20 02:50:07:INFO:***************** navigated to selected saree page ******************
+2025-04-20 02:50:12:INFO:******************* Correct Pincode is entered *************
+2025-04-20 02:50:33:INFO:***************** navigated to selected saree page ******************
+2025-04-20 02:50:39:INFO:******************* Inorrect Pincode is entered *************
+2025-04-20 03:01:16:INFO:*********Test Case 1 has started - Verifying title****************
+2025-04-20 03:01:29:INFO:*************** Title Verified *****************
+2025-04-20 03:01:51:INFO:**************** Hovered on women link *********************
+2025-04-20 03:01:52:INFO:************** Clicked on Saree Link ***************
+2025-04-20 03:02:43:INFO:************* Navigated to saree with all the filters page ****************
+2025-04-20 03:02:44:INFO:******************* More brand is clicked*************
+2025-04-20 03:02:44:INFO:******************* Anouk brand is selected *************
+2025-04-20 03:02:45:INFO:******************* Pink colour is selected *************
+2025-04-20 03:02:46:INFO:******************* Hovered on dropdown *************
+2025-04-20 03:02:47:INFO:******************* What's new option is selected *************
+2025-04-20 03:02:48:INFO:******************* Saree is selected *************
+2025-04-20 03:03:20:INFO:***************** navigated to selected saree page ******************
+2025-04-20 03:03:44:INFO:Saree price is : \u20b91169
+2025-04-20 03:03:45:INFO:******************* Saree price is found *************
+2025-04-20 03:04:12:INFO:***************** navigated to selected saree page ******************
+2025-04-20 03:04:18:INFO:******************* Correct Pincode is entered *************
+2025-04-20 03:04:40:INFO:***************** navigated to selected saree page ******************
+2025-04-20 03:04:44:INFO:******************* Inorrect Pincode is entered *************
+2025-04-20 03:11:34:INFO:*********Test Case 1 has started - Verifying title****************
+2025-04-20 03:11:59:INFO:*************** Title Verified *****************
+2025-04-20 03:12:14:INFO:**************** Hovered on women link *********************
+2025-04-20 03:12:15:INFO:************** Clicked on Saree Link ***************
+2025-04-20 03:13:09:INFO:************* Navigated to saree with all the filters page ****************
+2025-04-20 03:13:09:INFO:******************* More brand is clicked*************
+2025-04-20 03:13:10:INFO:******************* Anouk brand is selected *************
+2025-04-20 03:13:10:INFO:******************* Pink colour is selected *************
+2025-04-20 03:13:11:INFO:******************* Hovered on dropdown *************
+2025-04-20 03:13:11:INFO:******************* What's new option is selected *************
+2025-04-20 03:13:12:INFO:******************* Saree is selected *************
+2025-04-20 03:13:32:INFO:***************** navigated to selected saree page ******************
+2025-04-20 03:13:36:INFO:Saree price is : \u20b91399
+2025-04-20 03:13:36:INFO:******************* Saree price is found *************
+2025-04-20 03:14:22:INFO:***************** navigated to selected saree page ******************
+2025-04-20 03:14:27:INFO:******************* Inorrect Pincode is entered *************
+2025-04-20 13:51:50:INFO:************* Navigated to saree with all the filters page ****************
+2025-04-20 13:51:51:INFO:******************* More brand is clicked*************
+2025-04-20 13:51:52:INFO:******************* Anouk brand is selected *************
+2025-04-20 13:51:52:INFO:******************* Pink colour is selected *************
+2025-04-20 13:51:53:INFO:******************* Hovered on dropdown *************
+2025-04-20 13:56:15:INFO:************* Navigated to saree with all the filters page ****************
+2025-04-20 13:56:16:INFO:******************* More brand is clicked*************
+2025-04-20 13:56:17:INFO:******************* Anouk brand is selected *************
+2025-04-20 13:56:17:INFO:******************* Pink colour is selected *************
+2025-04-20 13:56:19:INFO:******************* Hovered on dropdown *************
+2025-04-20 13:57:17:INFO:************* Navigated to saree with all the filters page ****************
+2025-04-20 13:57:18:INFO:******************* More brand is clicked*************
+2025-04-20 13:57:19:INFO:******************* Anouk brand is selected *************
+2025-04-20 13:57:19:INFO:******************* Pink colour is selected *************
+2025-04-20 13:57:21:INFO:******************* Hovered on dropdown *************
+2025-04-20 13:59:53:INFO:************* Navigated to saree with all the filters page ****************
+2025-04-20 13:59:54:INFO:******************* More brand is clicked*************
+2025-04-20 13:59:55:INFO:******************* Anouk brand is selected *************
+2025-04-20 13:59:55:INFO:******************* Pink colour is selected *************
+2025-04-20 13:59:56:INFO:******************* Hovered on dropdown *************
+2025-04-20 13:59:57:INFO:******************* What's new option is selected *************
+2025-04-20 13:59:57:INFO:******************* Saree is selected *************
+2025-04-20 14:01:48:INFO:************* Navigated to saree with all the filters page ****************
+2025-04-20 14:01:48:INFO:******************* More brand is clicked*************
+2025-04-20 14:01:49:INFO:******************* Anouk brand is selected *************
+2025-04-20 14:01:49:INFO:******************* Pink colour is selected *************
+2025-04-20 14:01:50:INFO:******************* Hovered on dropdown *************
+2025-04-20 14:08:06:INFO:************* Navigated to saree with all the filters page ****************
+2025-04-20 14:08:08:INFO:******************* More brand is clicked*************
+2025-04-20 14:08:09:INFO:******************* Anouk brand is selected *************
+2025-04-20 14:08:09:INFO:******************* Pink colour is selected *************
+2025-04-20 14:08:10:INFO:******************* Hovered on dropdown *************
+2025-04-20 14:08:46:INFO:******************* What's new option is selected *************
+2025-04-20 14:08:46:INFO:******************* Saree is selected *************
+2025-04-20 14:10:08:INFO:***************** navigated to selected saree page ******************
+2025-04-20 14:10:10:INFO:Saree price is : \u20b9979
+2025-04-20 14:10:10:INFO:******************* Saree price is found *************
+2025-04-20 14:11:10:INFO:***************** navigated to selected saree page ******************
+2025-04-20 14:11:17:INFO:******************* Correct Pincode is entered *************
+2025-04-20 14:12:22:INFO:***************** navigated to selected saree page ******************
+2025-04-20 14:12:32:INFO:******************* Inorrect Pincode is entered *************
+2025-04-20 14:22:12:INFO:************* Navigated to saree with all the filters page ****************
+2025-04-20 14:22:14:INFO:******************* More brand is clicked*************
+2025-04-20 14:22:14:INFO:******************* Anouk brand is selected *************
+2025-04-20 14:22:16:INFO:******************* Pink colour is selected *************
+2025-04-20 14:22:19:INFO:******************* Hovered on dropdown *************
+2025-04-20 14:22:20:INFO:******************* What's new option is selected *************
+2025-04-20 14:22:21:INFO:******************* Saree is selected *************
+2025-04-20 14:22:49:INFO:***************** navigated to selected saree page ******************
+2025-04-20 14:22:51:INFO:Saree price is : \u20b9999
+2025-04-20 14:22:51:INFO:******************* Saree price is found *************
+2025-04-20 14:23:14:INFO:***************** navigated to selected saree page ******************
+2025-04-20 14:23:18:INFO:******************* Correct Pincode is entered *************
+2025-04-20 14:23:38:INFO:***************** navigated to selected saree page ******************
+2025-04-20 14:23:41:INFO:******************* Inorrect Pincode is entered *************
+2025-04-20 14:31:14:INFO:************* Navigated to saree with all the filters page ****************
+2025-04-20 14:31:15:INFO:******************* More brand is clicked*************
+2025-04-20 14:31:15:INFO:******************* Anouk brand is selected *************
+2025-04-20 14:31:15:INFO:******************* Pink colour is selected *************
+2025-04-20 14:31:17:INFO:******************* Hovered on dropdown *************
+2025-04-20 14:31:18:INFO:******************* What's new option is selected *************
+2025-04-20 14:31:18:INFO:******************* Saree is selected *************
+2025-04-20 14:35:16:INFO:************* Navigated to saree with all the filters page ****************
+2025-04-20 14:35:20:INFO:******************* More brand is clicked*************
+2025-04-20 14:35:30:INFO:******************* Anouk brand is selected *************
+2025-04-20 14:35:30:INFO:******************* Pink colour is selected *************
+2025-04-20 14:35:32:INFO:******************* Hovered on dropdown *************
+2025-04-20 14:35:33:INFO:******************* What's new option is selected *************
+2025-04-20 14:35:33:INFO:******************* Saree is selected *************
+2025-04-20 14:36:57:INFO:***************** navigated to selected saree page ******************
+2025-04-20 14:36:59:INFO:Saree price is : \u20b9999
+2025-04-20 14:36:59:INFO:******************* Saree price is found *************
+2025-04-20 14:37:33:INFO:***************** navigated to selected saree page ******************
+2025-04-20 14:37:45:INFO:******************* Correct Pincode is entered *************
+2025-04-20 14:38:16:INFO:***************** navigated to selected saree page ******************
+2025-04-20 14:38:20:INFO:******************* Inorrect Pincode is entered *************
+2025-04-20 15:17:58:INFO:***************** navigated to selected saree page ******************
+2025-04-20 15:18:02:INFO:Saree price is : \u20b9979
+2025-04-20 15:18:03:INFO:******************* Saree price is found *************
+2025-04-20 15:19:01:INFO:***************** navigated to selected saree page ******************
+2025-04-20 15:19:15:INFO:******************* Correct Pincode is entered *************
+2025-04-20 15:19:48:INFO:***************** navigated to selected saree page ******************
+2025-04-20 15:19:52:INFO:******************* Inorrect Pincode is entered *************
+2025-04-20 15:28:59:INFO:***************** navigated to selected saree page ******************
+2025-04-20 15:29:17:INFO:Saree price is : \u20b9999
+2025-04-20 15:29:17:INFO:******************* Saree price is found *************
+2025-04-20 15:34:42:INFO:***************** navigated to selected saree page ******************
+2025-04-20 15:34:46:INFO:Saree price is : \u20b9999
+2025-04-20 15:34:46:INFO:******************* Saree price is found *************
+2025-04-20 15:35:17:INFO:***************** navigated to selected saree page ******************
+2025-04-20 15:35:21:INFO:******************* Correct Pincode is entered *************
+2025-04-20 15:35:53:INFO:***************** navigated to selected saree page ******************
+2025-04-20 15:35:56:INFO:******************* Inorrect Pincode is entered *************
+2025-04-20 15:40:16:INFO:***************** navigated to selected saree page ******************
+2025-04-20 15:40:27:INFO:Saree price is : \u20b9999
+2025-04-20 15:40:27:INFO:******************* Saree price is found *************
+2025-04-20 15:41:04:INFO:***************** navigated to selected saree page ******************
+2025-04-20 15:41:13:INFO:******************* Correct Pincode is entered *************
+2025-04-20 15:41:42:INFO:***************** navigated to selected saree page ******************
+2025-04-20 15:41:45:INFO:******************* Inorrect Pincode is entered *************
+2025-04-20 15:42:15:INFO:***************** navigated to selected saree page ******************

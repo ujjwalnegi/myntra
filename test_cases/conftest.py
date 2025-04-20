@@ -1,6 +1,9 @@
 import pytest
 from selenium import webdriver
+from selenium.webdriver.support.wait import WebDriverWait
+
 from base_pages.Home_Page import Home_Page
+from base_pages.saree_page import Saree_Page
 from utilities.read_properties import Read_Config
 
 
@@ -46,4 +49,26 @@ def driver_navigated_to_saree_page(setup):  # setup fixture will give you the in
             driver.switch_to.window(handle)
             break
 
+    yield driver
+
+
+@pytest.fixture()
+def driver_navigated_to_selected_saree_page(driver_navigated_to_saree_page):  # setup fixture will give you the initialized driver
+    driver = driver_navigated_to_saree_page
+    saree_selected = Saree_Page(driver)
+    saree_selected.click_more_brand()
+    saree_selected.select_anouk_brand()
+    saree_selected.select_pink_colour()
+    saree_selected.hover_sort()
+    saree_selected.click_option_sort()
+    saree_selected.click_saree()
+
+    # Switch to selected saree tab
+    driver.main_window = driver.current_window_handle
+    for handle in driver.window_handles:
+        if handle != driver.main_window:
+            driver.switch_to.window(handle)
+            break
+
+    # Optionally, verify that we're on the right page (you can also use a URL check here)
     yield driver
