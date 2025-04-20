@@ -1,4 +1,5 @@
-from selenium.webdriver import ActionChains
+import selenium
+from selenium.webdriver import ActionChains, Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -7,8 +8,9 @@ from selenium.webdriver.support import expected_conditions as EC
 class Home_Page:
     # myntra_logo_xpath = "//a[@href='/']"
     women_section_xpath = "//a[@data-group='women']"
-    homepage_searchbar_classname = "desktop-searchBar"
+    homepage_searchbar_xpath = "//input[@class='desktop-searchBar']"
     saree_xpath = "//a[normalize-space()='Sarees']"
+    incorrect_product_xpath = "//p[normalize-space(text()) = \"We couldn't find any matches!\"]"
 
     def __init__(self, driver):  # we are sending driver as parameter in the constructor of Home_page base class
         self.driver = driver  # we can use it to access all class variables and methods, self keyword means it belongs to the class
@@ -33,5 +35,22 @@ class Home_Page:
         saree_link = WebDriverWait(self.driver, 30).until(EC.visibility_of_element_located((By.XPATH,self.saree_xpath)))
         saree_link.click()
 
-    def enter_data_in_searchbar(self, data):
-        self.driver.find_element(By.CLASS_NAME, self.homepage_searchbar_classname).send_keys(data)
+    def enter_correct_data_in_searchbar(self,correct_data):
+        searchbar = self.driver.find_element(By.XPATH,self.homepage_searchbar_xpath)
+        searchbar.clear()
+        searchbar.send_keys(correct_data)
+        searchbar.send_keys(Keys.ENTER)
+        #capture home page url
+        current_url = self.driver.current_url
+        print(f"This is current url :{current_url}")
+        WebDriverWait(self.driver,10).until(EC.url_contains("shirt"))
+        after_search_url = self.driver.current_url
+        print(f"This is url after search : {after_search_url}")
+        assert 'shirt' in after_search_url
+
+    def enter_incorrect_data_in_searchbar(self,incorrect_data):
+        searchbar = self.driver.find_element(By.XPATH,self.homepage_searchbar_xpath)
+        searchbar.send_keys(incorrect_data)
+        searchbar.send_keys(Keys.ENTER)
+        no_product_displayed = WebDriverWait(self.driver,10).until(EC.presence_of_element_located((By.XPATH,self.incorrect_product_xpath)))
+        assert no_product_displayed.is_displayed()
