@@ -5,7 +5,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-class Home_Page:
+class HomePage:
     # myntra_logo_xpath = "//a[@href='/']"
     women_section_xpath = "//a[@data-group='women']"
     homepage_searchbar_xpath = "//input[@class='desktop-searchBar']"

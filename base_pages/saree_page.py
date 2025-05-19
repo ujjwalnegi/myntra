@@ -7,7 +7,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-class Saree_Page():
+class SareePage:
     more_brand_xpath = "//div[@class='brand-more']"
     all_brand_list = "//ul[@class='FilterDirectory-list']//li"
     anouk_brand_xpath = "//div[@class='FilterDirectory-panel FilterDirectory-expanded']/div[2]/ul/li[6]"

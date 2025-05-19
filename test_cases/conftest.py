@@ -2,8 +2,8 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 
-from base_pages.Home_Page import Home_Page
-from base_pages.saree_page import Saree_Page
+from base_pages.Home_Page import HomePage
+from base_pages.saree_page import SareePage
 from utilities.read_properties import Read_Config
 
 
@@ -38,7 +38,7 @@ def driver_navigated_to_saree_page(setup):  # setup fixture will give you the in
     driver.maximize_window()
     driver.get(Read_Config.get_myntra_home_page_url())
 
-    home_page = Home_Page(driver)
+    home_page = HomePage(driver)
     home_page.hover_women_link()
     home_page.click_saree_link()
 
@@ -55,7 +55,7 @@ def driver_navigated_to_saree_page(setup):  # setup fixture will give you the in
 @pytest.fixture()
 def driver_navigated_to_selected_saree_page(driver_navigated_to_saree_page):  # setup fixture will give you the initialized driver
     driver = driver_navigated_to_saree_page
-    saree_selected = Saree_Page(driver)
+    saree_selected = SareePage(driver)
     saree_selected.click_more_brand()
     saree_selected.select_anouk_brand()
     saree_selected.select_pink_colour()

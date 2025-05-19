@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from utilities.custom_logger import Log_Maker
 
 
-class Selected_saree_page():
+class SelectedSareePage:
     saree_price_xpath = "//span[@class='pdp-price']"
     enter_pincode_xpath = "//input[@placeholder='Enter pincode']"
     click_check_xpath = "//input[@value='Check']"
@@ -71,3 +71,8 @@ class Selected_saree_page():
         expected_text = "GO TO BAG"
         print(f'Expected Text : {expected_text}')
         assert expected_text == go_to_cart_text
+
+    def go_to_cart(self):
+        self.wait.until(EC.presence_of_element_located((By.XPATH,self.gotocarttext_xpath)))
+        self.driver.find_element(By.XPATH,self.gotocarttext_xpath).click()
+
