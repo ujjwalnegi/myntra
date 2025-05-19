@@ -2,8 +2,8 @@ import time
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from base_pages.Home_Page import Home_Page
-from base_pages.saree_page import Saree_Page
+from base_pages.Home_Page import HomePage
+from base_pages.saree_page import SareePage
 from utilities.read_properties import Read_Config
 from utilities.custom_logger import Log_Maker
 
@@ -15,7 +15,7 @@ class Test02_Myntra_Saree_Page:
         self.logger = Log_Maker.log_generator()
         driver = driver_navigated_to_saree_page
         self.logger.info("************* Navigated to saree with all the filters page ****************")
-        saree_page = Saree_Page(driver)
+        saree_page = SareePage(driver)
         saree_page.click_more_brand()
         self.logger.info("******************* More brand is clicked*************")
         saree_page.select_anouk_brand()

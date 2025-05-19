@@ -182,3 +182,48 @@
 2025-04-20 15:41:42:INFO:***************** navigated to selected saree page ******************
 2025-04-20 15:41:45:INFO:******************* Inorrect Pincode is entered *************
 2025-04-20 15:42:15:INFO:***************** navigated to selected saree page ******************
+2025-04-20 16:23:29:INFO:*********Test Case 1 has started - Verifying title****************
+2025-04-20 16:23:48:INFO:*************** Title Verified *****************
+2025-04-20 16:24:25:INFO:**************** Hovered on women link *********************
+2025-04-20 16:24:37:INFO:************** Clicked on Saree Link ***************
+2025-04-20 16:25:59:INFO:************* Navigated to saree with all the filters page ****************
+2025-04-20 16:26:01:INFO:******************* More brand is clicked*************
+2025-04-20 16:26:14:INFO:******************* Anouk brand is selected *************
+2025-04-20 16:26:14:INFO:******************* Pink colour is selected *************
+2025-04-20 16:26:16:INFO:******************* Hovered on dropdown *************
+2025-04-20 16:26:17:INFO:******************* What's new option is selected *************
+2025-04-20 16:26:17:INFO:******************* Saree is selected *************
+2025-04-20 16:26:52:INFO:***************** navigated to selected saree page ******************
+2025-04-20 16:27:03:INFO:Saree price is : \u20b9999
+2025-04-20 16:27:04:INFO:******************* Saree price is found *************
+2025-04-20 16:27:39:INFO:***************** navigated to selected saree page ******************
+2025-04-20 16:27:45:INFO:******************* Correct Pincode is entered *************
+2025-04-20 16:28:19:INFO:***************** navigated to selected saree page ******************
+2025-04-20 16:28:22:INFO:******************* Inorrect Pincode is entered *************
+2025-04-20 16:28:54:INFO:***************** navigated to selected saree page ******************
+2025-05-06 12:34:43:INFO:*********Test Case 1 has started - Verifying title****************
+2025-05-06 12:34:56:INFO:*************** Title Verified *****************
+2025-05-06 12:36:18:INFO:***************** navigated to selected saree page ******************
+2025-05-06 12:36:23:INFO:******************* Correct Pincode is entered *************
+2025-05-06 12:36:43:WARNING:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021230A6F090>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/398e7124762b44223819ca93899b7782
+2025-05-06 12:36:47:WARNING:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021230A6DED0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/398e7124762b44223819ca93899b7782
+2025-05-06 12:36:51:WARNING:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021230A6D690>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/398e7124762b44223819ca93899b7782
+2025-05-06 12:37:21:WARNING:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021230F78510>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/791850b43e55a5ce2d66c87813f2e727
+2025-05-06 12:37:25:WARNING:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021230F7A410>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/791850b43e55a5ce2d66c87813f2e727
+2025-05-06 12:37:29:WARNING:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000021230F7B710>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/791850b43e55a5ce2d66c87813f2e727
+2025-05-11 15:18:05:WARNING:Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+2025-05-11 15:18:52:INFO:*********Test Case 1 has started - Verifying title****************
+2025-05-11 15:19:58:INFO:*************** Title Verified *****************
+2025-05-11 15:21:08:INFO:**************** Hovered on women link *********************
+2025-05-11 15:21:15:INFO:************** Clicked on Saree Link ***************
+2025-05-11 15:22:21:INFO:************* Navigated to saree with all the filters page ****************
+2025-05-11 15:22:27:INFO:******************* More brand is clicked*************
+2025-05-11 15:22:39:INFO:******************* Anouk brand is selected *************
+2025-05-11 15:23:30:INFO:***************** navigated to selected saree page ******************
+2025-05-11 15:23:37:INFO:Saree price is : \u20b9999
+2025-05-11 15:23:37:INFO:******************* Saree price is found *************
+2025-05-11 15:24:29:INFO:***************** navigated to selected saree page ******************
+2025-05-11 15:24:40:INFO:******************* Correct Pincode is entered *************
+2025-05-11 15:26:55:INFO:***************** navigated to selected saree page ******************
+2025-05-11 15:27:27:INFO:******************* Inorrect Pincode is entered *************
+2025-05-11 15:29:35:INFO:***************** navigated to selected saree page ******************

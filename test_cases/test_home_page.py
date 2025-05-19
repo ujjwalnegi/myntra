@@ -3,7 +3,7 @@ import time
 import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from base_pages.Home_Page import Home_Page
+from base_pages.Home_Page import HomePage
 from utilities.read_properties import Read_Config
 from utilities.custom_logger import Log_Maker
 
@@ -36,7 +36,7 @@ class Test01_Myntra_Home_Page:
         driver = setup
         driver.get(
             self.myntra_home_page_url)  # we are using self here because myntra_home_page_url is a class-level variable, and we're accessing it inside a method of the same class.
-        home_page = Home_Page(driver)
+        home_page = HomePage(driver)
         home_page.hover_women_link()
         self.logger.info("**************** Hovered on women link *********************")
         home_page.click_saree_link()
@@ -50,13 +50,13 @@ class Test_02_Searchbar_Homepage:
     def test_search_correct_data(self, setup):
         driver = setup
         driver.get(self.myntra_home_page_url)
-        home_page = Home_Page(driver)
+        home_page = HomePage(driver)
         home_page.enter_correct_data_in_searchbar("Shirt")
 
     def test_search_incorrect_data(self, setup):
         driver = setup
         driver.get(self.myntra_home_page_url)
-        home_page = Home_Page(driver)
+        home_page = HomePage(driver)
         home_page.enter_incorrect_data_in_searchbar("@@@@@@@@@@@@")
         driver.save_screenshot(".\\screenshots\\no_data.png")
 
