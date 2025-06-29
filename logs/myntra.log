@@ -227,3 +227,22 @@
 2025-05-11 15:26:55:INFO:***************** navigated to selected saree page ******************
 2025-05-11 15:27:27:INFO:******************* Inorrect Pincode is entered *************
 2025-05-11 15:29:35:INFO:***************** navigated to selected saree page ******************
+2025-06-04 14:01:54:INFO:*********Test Case 1 has started - Verifying title****************
+2025-06-04 14:02:10:INFO:*************** Title Verified *****************
+2025-06-04 14:02:53:INFO:**************** Hovered on women link *********************
+2025-06-04 14:03:06:INFO:************** Clicked on Saree Link ***************
+2025-06-04 14:04:36:INFO:************* Navigated to saree with all the filters page ****************
+2025-06-04 14:04:58:INFO:******************* More brand is clicked*************
+2025-06-04 14:05:09:INFO:******************* Anouk brand is selected *************
+2025-06-04 14:05:09:INFO:******************* Pink colour is selected *************
+2025-06-04 14:05:11:INFO:******************* Hovered on dropdown *************
+2025-06-04 14:05:11:INFO:******************* What's new option is selected *************
+2025-06-04 14:05:12:INFO:******************* Saree is selected *************
+2025-06-04 14:06:06:INFO:***************** navigated to selected saree page ******************
+2025-06-04 14:06:10:INFO:Saree price is : \u20b92599
+2025-06-04 14:06:10:INFO:******************* Saree price is found *************
+2025-06-04 14:06:48:INFO:***************** navigated to selected saree page ******************
+2025-06-04 14:06:55:INFO:******************* Correct Pincode is entered *************
+2025-06-04 14:07:33:INFO:***************** navigated to selected saree page ******************
+2025-06-04 14:07:43:INFO:******************* Inorrect Pincode is entered *************
+2025-06-04 14:08:22:INFO:***************** navigated to selected saree page ******************
