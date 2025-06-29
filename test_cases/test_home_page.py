@@ -12,6 +12,7 @@ class Test01_Myntra_Home_Page:
     myntra_home_page_url = Read_Config.get_myntra_home_page_url()
     logger = Log_Maker.log_generator()
 
+    @pytest.mark.smoke
     def test_title_verification(self, setup):
         self.logger.info("*********Test Case 1 has started - Verifying title****************")
         driver = setup
@@ -32,6 +33,7 @@ class Test01_Myntra_Home_Page:
         self.logger.info("*************** Title Verified *****************")
         driver.save_screenshot(".\\screenshots\\title_verified.png")
 
+    @pytest.mark.smoke
     def test_hover_women_link(self, setup):
         driver = setup
         driver.get(
@@ -47,12 +49,14 @@ class Test_02_Searchbar_Homepage:
     myntra_home_page_url = Read_Config.get_myntra_home_page_url()
     logger = Log_Maker.log_generator()
 
+    @pytest.mark.regression
     def test_search_correct_data(self, setup):
         driver = setup
         driver.get(self.myntra_home_page_url)
         home_page = HomePage(driver)
         home_page.enter_correct_data_in_searchbar("Shirt")
 
+    @pytest.mark.regression
     def test_search_incorrect_data(self, setup):
         driver = setup
         driver.get(self.myntra_home_page_url)

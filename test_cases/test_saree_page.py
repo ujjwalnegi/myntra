@@ -1,5 +1,6 @@
 import time
 
+import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from base_pages.Home_Page import HomePage
@@ -11,6 +12,7 @@ from utilities.custom_logger import Log_Maker
 class Test02_Myntra_Saree_Page:
     logger = Log_Maker.log_generator()
 
+    @pytest.mark.regression
     def test_filters_saree_page(self, driver_navigated_to_saree_page):
         self.logger = Log_Maker.log_generator()
         driver = driver_navigated_to_saree_page
