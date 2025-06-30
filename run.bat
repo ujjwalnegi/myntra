@@ -16,6 +16,6 @@ pip install -r requirements.txt
 pytest -s -v -m %TEST_TAG% --alluredir=reports/
 
 :: Step 6: Generate Allure report (optional but professional)
-allure generate reports/ --clean -o allure-report
+allure generate reports/ -o allure-report
 
 pause
