@@ -1,3 +1,5 @@
 pytest
 selenium
 openpyxl
+pytest-html
+#added pytest-html
