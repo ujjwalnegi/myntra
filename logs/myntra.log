@@ -246,3 +246,33 @@
 2025-06-04 14:07:33:INFO:***************** navigated to selected saree page ******************
 2025-06-04 14:07:43:INFO:******************* Inorrect Pincode is entered *************
 2025-06-04 14:08:22:INFO:***************** navigated to selected saree page ******************
+2025-06-30 10:44:08:INFO:************* Navigated to saree with all the filters page ****************
+2025-06-30 10:44:14:INFO:******************* More brand is clicked*************
+2025-06-30 10:44:26:INFO:******************* Anouk brand is selected *************
+2025-06-30 10:44:26:INFO:******************* Pink colour is selected *************
+2025-06-30 10:44:27:INFO:******************* Hovered on dropdown *************
+2025-06-30 10:44:28:INFO:******************* What's new option is selected *************
+2025-06-30 10:44:29:INFO:******************* Saree is selected *************
+2025-06-30 10:45:03:INFO:***************** navigated to selected saree page ******************
+2025-06-30 10:45:07:INFO:Saree price is : \u20b92299
+2025-06-30 10:45:07:INFO:******************* Saree price is found *************
+2025-06-30 10:45:42:INFO:***************** navigated to selected saree page ******************
+2025-06-30 10:55:09:INFO:************* Navigated to saree with all the filters page ****************
+2025-06-30 10:55:10:INFO:******************* More brand is clicked*************
+2025-06-30 10:55:23:INFO:******************* Anouk brand is selected *************
+2025-06-30 10:55:24:INFO:******************* Pink colour is selected *************
+2025-06-30 10:55:25:INFO:******************* Hovered on dropdown *************
+2025-06-30 10:55:26:INFO:******************* What's new option is selected *************
+2025-06-30 10:55:26:INFO:******************* Saree is selected *************
+2025-06-30 10:56:02:INFO:***************** navigated to selected saree page ******************
+2025-06-30 10:56:04:INFO:Saree price is : \u20b92299
+2025-06-30 10:56:04:INFO:******************* Saree price is found *************
+2025-06-30 10:56:41:INFO:***************** navigated to selected saree page ******************
+2025-06-30 12:19:42:INFO:*********Test Case 1 has started - Verifying title****************
+2025-06-30 12:19:55:INFO:*************** Title Verified *****************
+2025-06-30 12:20:23:INFO:**************** Hovered on women link *********************
+2025-06-30 12:20:31:INFO:************** Clicked on Saree Link ***************
+2025-06-30 12:21:06:INFO:***************** navigated to selected saree page ******************
+2025-06-30 12:21:24:INFO:******************* Correct Pincode is entered *************
+2025-06-30 12:22:15:INFO:***************** navigated to selected saree page ******************
+2025-06-30 12:22:21:INFO:******************* Inorrect Pincode is entered *************
